@@ -1,0 +1,266 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Warkop Bellezza</title>
+  <link rel="stylesheet" href="menu.css"/>
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+  <div class="blob blob1"></div>
+<div class="blob blob2"></div>
+<div class="blob blob3"></div>
+
+  <!-- NAVBAR -->
+  <header>
+    <h1>Warkop Bellezza</h1>
+
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">Tentang</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <button id="darkBtn">🌙</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay">
+      <h2>Warkop Murah Bellezza</h2>
+      <p>
+        Tempat Makanan Murah, Lezat, Dan Bikin Nagih (Free WiFi)
+      </p>
+
+      <button onclick="scrollMenu()">Lihat Menu</button>
+    </div>
+  </section>
+
+  <!-- SEARCH -->
+  <section class="search-box">
+    <input type="text" id="searchInput" placeholder="Cari menu...">
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="menu-container">
+
+    <div class="card">
+      <img src="Foto Menu/Thai Tea.jpg" alt="">
+      <h3>Thai Tea</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+    <div class="card">
+      <img src="Foto Menu/Green Tea.jpg" alt="">
+      <h3>Green Tea</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+    <div class="card">
+      <img src="Foto Menu/Es Macha.jpg" alt="">
+      <h3>Matcha</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+    <div class="card">
+      <img src="Foto Menu/Es Coklat.jpg" alt="">
+      <h3>Es Coklat</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+    <div class="card">
+      <img src="Foto Menu/Taro.jpg" alt="">
+      <h3>Taro</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+    <div class="card">
+      <img src="Foto Menu/Es Lidah Buaya.jpg" alt="">
+      <h3>Es Lidah Buaya</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+    <div class="card">
+      <img src="Foto Menu/Es Jeruk.jpg" alt="">
+      <h3>Es Jeruk</h3>
+      <span>Rp 5.000 / 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Es Teh Solo.jpg" alt="">
+      <h3>Es Teh Solo</h3>
+      <span>Rp 5.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/ESPRESSO.jpg" alt="">
+      <h3>Espresso</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Latte.jpg" alt="">
+      <h3>Coffe Latte</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+    <div class="card">
+      <img src="Foto Menu/Teh Tarik.jpg" alt="">
+      <h3>Teh Tarik</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/gohyong.jpg" alt="">
+      <h3>Gohyong</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Indomie Goreng Kornet.jpg" alt="">
+      <h3>Indomie Telur Cornet Keju</h3>
+      <span>Rp 18.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Indomie Rebus.jpg" alt="">
+      <h3>Indomie Rebus Telur</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Indomie Goreng" alt="">
+      <h3>Indomie Goreng Telur</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Mie Nyemek.jpg" alt="">
+      <h3>Mie Nyemek Toping Telur Cornet</h3>
+      <span>Rp 15.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Kentang Curly.jpg" alt="">
+      <h3>Kentang Curly</h3>
+      <span>Rp 12.000 / 22.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Risol Matcha.jpg" alt="">
+      <h3>Risol Macha</h3>
+      <span>Rp 4.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Risol Coklat.jpg" alt="">
+      <h3>Risol Coklat</h3>
+      <span>Rp 4.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Dimsum Original.jpg" alt="">
+      <h3>Dimsum Original</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Dimsum Goreng.jpg" alt="">
+      <h3>Dimsum Goreng</h3>
+      <span>Rp 5.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Dimsum Mentai.jpg" alt="">
+      <h3>Dimsum Mentai</h3>
+      <span>Rp 16.000 / 24.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Ayam Goreng Sambel Ijo.jpg" alt="">
+      <h3>Ayam Goreng Sambel Ijo</h3>
+      <span>Rp 20.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Ayam Geprek.jpg" alt="">
+      <h3>Nasi Ayam Geprek Tahu Tempe</h3>
+      <span>Rp 20.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Roti Strawberry.jpg" alt="">
+      <h3>Roti Bakar Slay Strobery</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Roti Coklat.jpg" alt="">
+      <h3>Roti Bakar Slay Coklat</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+<div class="card">
+      <img src="Foto Menu/Roti Keju.jpg" alt="">
+      <h3>Roti Bakar Slay Keju</h3>
+      <span>Rp 10.000</span>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>Tentang Warkop</h2>
+    <p>
+      Warkop Bellezza
+Tempat nongkrong nyaman dengan suasana hangat dan modern yang cocok untuk bersantai bersama teman, keluarga, maupun menikmati waktu sendiri. Dengan pilihan kopi berkualitas, minuman segar, serta berbagai camilan lezat, Warkop Bellezza hadir untuk memberikan pengalaman nongkrong yang menyenangkan dan berkesan.
+Didukung dengan desain tempat yang aesthetic, pelayanan ramah, dan suasana yang santai, Warkop Bellezza menjadi pilihan tepat untuk mengerjakan tugas, meeting santai, atau sekadar melepas penat setelah aktivitas seharian.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+
+  <h2>Hubungi Kami</h2>
+
+  <p>
+    Ada kritik, saran, atau mau pesan?
+    Hubungi kami melalui platform berikut.
+  </p>
+
+  <div class="contact-box">
+
+    <a href="https://wa.me/6285591887730" target="_blank">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+
+    <a href="mailto:andinioppo1985@gmail.com">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+
+  </div>
+
+</section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Warkop Bellezza</p>
+  </footer>
+
+  <!-- IMAGE PREVIEW -->
+
+<div id="imageModal" class="image-modal">
+
+  <span class="close-modal">&times;</span>
+
+  <img id="modalImage" src="" alt="">
+
+</div>
+
+  <script src="menu.js"></script>
+</body>
+</html>
